@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ================= Meta Tag ================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ================= Page Title ================= -->
+    <title>Sing - Music HTML Template</title>
+
+    <!-- ================= Favicon Icon ================= -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- ================= Start StyleSheet ================= -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/fancybox.css">
+    <link rel="stylesheet" href="static/css/slick.css">
+    <link rel="stylesheet" href="static/css/plyr.css">
+    <link rel="stylesheet" href="static/css/icofont.min.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    <link rel="stylesheet" href="static/css/main.css">
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="ic-preloader">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+    <!-- preloader -->
+
+    <!-- Header
+    ============================================= -->
+    <header>
+      <!-- Start Navigation -->
+      <nav class="ic-navbar navbar navbar-expand-xl">
+        <div class="ic-container d-flex align-items-center position-relative">
+          <!-- Start Header Navigation -->
+          <a class="navbar-brand" href="index.html">
+            <script data-pagespeed-no-defer="">//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://themeclan.com/sing/artist-details.html','82dtZm2p5Q',true,false,'T7fP1lIcFyg');
+//]]></script><img src="static/picture/logo.png" alt="sing logo" data-pagespeed-url-hash="3274967353" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <!-- End Header Navigation -->
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ic-navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="audio-music.html">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="artist.html">Artists</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="tour.html">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="blog.html">Blog</a>
+              </li>
+             <li class="nav-item">
+                <a class="ic-page-link" href="#">Page <i class="icofont-thin-down"></i></a>
+                <ul>
+                  <li>
+                    <a href="shop.html">Shop</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                  <li>
+                    <a class="" href="music-album.html">Album</a>
+                  </li>
+                  <li>
+                    <a class="" href="coming-soon.html">Coming Soon</a>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+            <div class="ic-right-side d-flex ms-auto">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icofont-search"></i></a>
+              <a href="view-cart.html"><span>2</span><i class="icofont-bag"></i></a>
+              <a href="shop.html"><i class="icofont-ui-social-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navigation -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Breadcrumb
+    ============================================= -->
+    <section class="ic-artist-details ic-inner-section-bg">
+      <div class="ic-container">
+        <div class="ic-inner-page">
+          <h4>Artists Details</h4>
+        </div>
+      </div>
+      <div class="ic-breadcrumb">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>Artists</li>
+          <li>Artist Details</li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Breadcrumb -->
+
+    <!-- Start artist Info
+    ============================================= -->
+    <section>
+      <div class="ic-container">
+        <div class="row g-3">
+          <div class="col-lg-6">
+            <div class="ic-artist-image wow fadeInLeft" data-wow-duration="3.5s" data-wow-delay=".5s">
+              <img src="static/picture/artist-single-img.png" alt="artist image" data-pagespeed-url-hash="155620202" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="ic-artist-full-info wow fadeInRight" data-wow-duration="3.5s" data-wow-delay=".5s">
+              <ul>
+                <li>
+                  <span>Full Name</span>
+                  <span>:</span>
+                  <p>Aubrey Drake Graham</p>
+                </li>
+                <li>
+                  <span>Orgine</span>
+                  <span>:</span>
+                  <p>Toronto, Canada</p>
+                </li>
+                <li>
+                  <span>Dath Of Birth</span>
+                  <span>:</span>
+                  <p>October 24, 1986</p>
+                </li>
+                <li>
+                  <span>Height</span>
+                  <span>:</span>
+                  <p>1.82 m</p>
+                </li>
+                <li>
+                  <span>Occupation</span>
+                  <span>:</span>
+                  <p>Rapper, Singer, Songwriter, Record, Producer, Actor</p>
+                </li>
+                <li>
+                  <span>Occupation</span>
+                  <span>:</span>
+                  <p>
+                    Rapper, Singer, Songwriter, Record, Producer, Actor
+                    Entrepreneur
+                  </p>
+                </li>
+                <li>
+                  <span>Genres</span>
+                  <span>:</span>
+                  <p>Hip Hop, R&B, Pop-Rap</p>
+                </li>
+                <li>
+                  <span>Instruments</span>
+                  <span>:</span>
+                  <p>Vocals</p>
+                </li>
+                <li>
+                  <span>Labels</span>
+                  <span>:</span>
+                  <p>OVO Sound, Young Money, Cash Money, Republic, Aspire</p>
+                </li>
+                <li>
+                  <span>Labels</span>
+                  <span>:</span>
+                  <p>
+                    OVO Sound, Young Money, Cash Money, Republic, Aspire,
+                    Universal Motown
+                  </p>
+                </li>
+                <li>
+                  <span>Residence</span>
+                  <span>:</span>
+                  <p>Hidden Hills, California</p>
+                </li>
+                <li>
+                  <span>Email</span>
+                  <span>:</span>
+                  <p>darke@gmail.com</p>
+                </li>
+                <li>
+                  <span>Website</span>
+                  <span>:</span>
+                  <p>drakeofficial.com</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="ic-artist-description">
+          <p>
+            <span>Aubrey Drake Graham</span> (born October 24, 1986) is a
+            Canadian rapper, singer, songwriter, record producer, actor, and
+            entrepreneur.[4][5] Drake initially gained recognition as an actor
+            on the teen drama television series Degrassi: The Next Generation in
+            the early 00s. Intent on pursuing a career as a rapper, he departed
+            the series in 2007 following the release of his debut mixtape, Room
+            for Improvement. He released 2 further independent projects,
+            Comeback Season and So Far Gone, before signing to Lil Wayne's Young
+            Money Entertainment in June 2009.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End artist Info -->
+
+    <!-- artist video 
+    ============================================= -->
+    <div class="ic-artist-video">
+      <a href="#" data-fancybox="video-gallery">
+        <i class="icofont-play-alt-3"></i>
+      </a>
+    </div>
+    <!-- End artist video -->
+
+    <!-- Start music album
+    ============================================= -->
+    <section>
+      <div class="ic-container">
+        <div class="ic-heading-title">
+          <h3>music album</h3>
+          <img src="static/picture/heading-shape.png" alt="shape" data-pagespeed-url-hash="2949796030" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+          <p>Rise your emition & wishes to expend pleasure time with us</p>
+        </div>
+        <div class="row g-4 ic-music-album-row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <a href="music-album-details.html" class="d-block">
+              <div class="ic-album-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+                <div class="ic-album-img">
+                  <img src="static/picture/music-album-1.png" class="img-fluid" alt="album" data-pagespeed-url-hash="155942465" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="ic-album-content">
+                  <h6>Three Days Grace</h6>
+                  <p>Hard rock, AClternative meta</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <a href="music-album-details.html" class="d-block">
+              <div class="ic-album-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="ic-album-img">
+                  <img src="static/picture/music-album-2.png" class="img-fluid" alt="album" data-pagespeed-url-hash="450442386" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="ic-album-content">
+                  <h6>Three Days Grace</h6>
+                  <p>Hard rock, AClternative meta</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <a href="music-album-details.html" class="d-block">
+              <div class="ic-album-item wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
+                <div class="ic-album-img">
+                  <img src="static/picture/music-album-3.png" class="img-fluid" alt="album" data-pagespeed-url-hash="744942307" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="ic-album-content">
+                  <h6>Three Days Grace</h6>
+                  <p>Hard rock, AClternative meta</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <a href="music-album-details.html" class="">
+              <div class="ic-album-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                <div class="ic-album-img">
+                  <img src="static/picture/music-album-4.png" class="img-fluid" alt="album" data-pagespeed-url-hash="1039442228" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="ic-album-content">
+                  <h6>Three Days Grace</h6>
+                  <p>Hard rock, AClternative meta</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <a href="music-album-details.html" class="d-block">
+              <div class="ic-album-item wow fadeInUp" data-wow-duration="2.5s" data-wow-delay=".5s">
+                <div class="ic-album-img">
+                  <img src="static/picture/music-album-1.png" class="img-fluid" alt="album" data-pagespeed-url-hash="155942465" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="ic-album-content">
+                  <h6>Three Days Grace</h6>
+                  <p>Hard rock, AClternative meta</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <a href="music-album-details.html" class="d-block">
+              <div class="ic-album-item wow fadeInUp" data-wow-duration="3s" data-wow-delay=".5s">
+                <div class="ic-album-img">
+                  <img src="static/picture/music-album-2.png" class="img-fluid" alt="album" data-pagespeed-url-hash="450442386" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="ic-album-content">
+                  <h6>Three Days Grace</h6>
+                  <p>Hard rock, AClternative meta</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <a href="music-album-details.html" class="d-block">
+              <div class="ic-album-item wow fadeInUp" data-wow-duration="3.5s" data-wow-delay=".5s">
+                <div class="ic-album-img">
+                  <img src="static/picture/music-album-3.png" class="img-fluid" alt="album" data-pagespeed-url-hash="744942307" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="ic-album-content">
+                  <h6>Three Days Grace</h6>
+                  <p>Hard rock, AClternative meta</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <a href="music-album-details.html" class="">
+              <div class="ic-album-item wow fadeInUp" data-wow-duration="4s" data-wow-delay=".5s">
+                <div class="ic-album-img">
+                  <img src="static/picture/music-album-4.png" class="img-fluid" alt="album" data-pagespeed-url-hash="1039442228" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="ic-album-content">
+                  <h6>Three Days Grace</h6>
+                  <p>Hard rock, AClternative meta</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- pagination -->
+        <div class="ic-more-btn ic-pt-80 text-center">
+          <ul class="pagination">
+            <li>
+              <a href="#">1</a>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#" class="active">3</a>
+            </li>
+            <li>
+              <a href="#">4</a>
+            </li>
+            <li>
+              <a href="#">..</a>
+            </li>
+            <li>
+              <a href="#">9</a>
+            </li>
+            <li>
+              <a href="#"><i class="icofont-thin-double-right"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End music album -->
+
+    <!-- Instagram 
+    ============================================= -->
+    <div class="ic-Instagram">
+      <div class="ic-instagram-gallery">
+        <div class="ic-instagram-item wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".5s">
+          <a href="#">
+            <img src="static/picture/instagram-1.png" class="img-fluid" alt="instagram" data-pagespeed-url-hash="1640327513" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <p><i class="icofont-instagram"></i> @singmusic</p>
+          </a>
+        </div>
+        <div class="ic-instagram-item wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".5s">
+          <a href="#">
+            <img src="static/picture/instagram-2.png" class="img-fluid" alt="instagram" data-pagespeed-url-hash="1934827434" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <p><i class="icofont-instagram"></i> @singmusic</p>
+          </a>
+        </div>
+        <div class="ic-instagram-item wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".5s">
+          <a href="#">
+            <img src="static/picture/instagram-3.png" class="img-fluid" alt="instagram" data-pagespeed-url-hash="2229327355" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <p><i class="icofont-instagram"></i> @singmusic</p>
+          </a>
+        </div>
+        <div class="ic-instagram-item wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".5s">
+          <a href="#">
+            <img src="static/picture/instagram-4.png" class="img-fluid" alt="instagram" data-pagespeed-url-hash="2523827276" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <p><i class="icofont-instagram"></i> @singmusic</p>
+          </a>
+        </div>
+        <div class="ic-instagram-item wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".5s">
+          <a href="#">
+            <img src="static/picture/instagram-5.png" class="img-fluid" alt="instagram" data-pagespeed-url-hash="2818327197" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <p><i class="icofont-instagram"></i> @singmusic</p>
+          </a>
+        </div>
+        <div class="ic-instagram-item wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".5s">
+          <a href="#">
+            <img src="static/picture/instagram-6.png" class="img-fluid" alt="instagram" data-pagespeed-url-hash="3112827118" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <p><i class="icofont-instagram"></i> @singmusic</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Instagram -->
+
+    <!-- Footer 
+    ============================================= -->
+
+    <footer class="ic-footer">
+      <div class="ic-container">
+        <div class="ic-footer-content">
+          <a href="#" class="ic-footer-logo d-inline-block">
+            <img src="static/picture/logo.png" alt="logo" data-pagespeed-url-hash="3274967353" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+          </a>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur fermentum fringilla neque, at pellentesque dolor
+                auctor facilisis. Mauris id nunc vel lorem venenatis maximus
+                quis sit amet metus
+              </p>
+            </div>
+          </div>
+          <div class="ic-footer-address">
+            <div class="row g-3">
+              <div class="col-lg-4 col-md-4">
+                <div class="ic-footer-items">
+                  <i class="icofont-location-pin"></i>
+                  <p>Chalabon, Dokkhin Khan Dhaka-1230, Bangladesh</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="ic-footer-items">
+                  <i class="icofont-ui-message"></i>
+                  <div>
+                    <a href="mailto:sing@gmail.com">sing@gmail.com</a>
+                    <a href="mailto:sing.song@gmail.com">sing.song@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="ic-footer-items">
+                  <i class="icofont-phone"></i>
+                  <div>
+                    <div>
+                      <a href="#">+880 1770 823 204</a>
+                    </div>
+                    <a href="#">+880 1681 857 373</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ic-footer-bottom">
+            <div class="row justify-content-center">
+              <div class="col-lg-4">
+                <p>
+                  Copyright &copy; 2025.unsong.cc All rights reserved.
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- back to top -->
+    <button type="button" class="ic-back-top">
+      <i class="icofont-long-arrow-up"></i>
+    </button>
+
+    <!-- Search Modal -->
+    <div class="modal fade ic-search-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModal" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-body">
+            <!-- modal close button -->
+            <button type="button" class="ic-modal-close" data-bs-dismiss="modal" aria-label="Close">
+              <i class="icofont-close-line"></i>
+            </button>
+
+            <!-- search bar input -->
+            <form action="#">
+              <input type="text" class="form-control" placeholder="Search...">
+              <button type="submit" class="ic-btn-search">
+                <i class="icofont-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript files 
+    ============================================= -->
+    <script src="static/js/jquery-3.7.1.min.js"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/fancybox.umd.js"></script>
+    <script src="static/js/slick.min.js"></script>
+<script src="static/js/slick-animation.min.js"></script>
+    <script src="static/js/plyr.min.js"></script>
+    <script src="static/js/wow.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
